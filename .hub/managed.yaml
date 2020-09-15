@@ -23,12 +23,8 @@ parameters:
     value: harbor
   - name: application.training.docker.registry.url
     value: ml1-harbor.svc.ml1.demo10.superhub.io/library
-  - name: author.email
-    value: nvanderklaauw@g.harvard.edu
   - name: author.id
     value: 00u8b4xikkn5i0jZK2p7
-  - name: author.name
-    value: Nikhil Vanderklaauw
   - name: author.organization
     value: DEMO10
   - name: component.dex.okta.appId
@@ -54,9 +50,7 @@ outputs:
   - name: application.training.docker.registry.image
   - name: application.training.docker.registry.kind
   - name: application.training.docker.registry.url
-  - name: author.email
   - name: author.id
-  - name: author.name
   - name: author.organization
   - name: component.dex.okta.appId
   - name: component.dex.okta.clientId
